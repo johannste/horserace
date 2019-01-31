@@ -10,7 +10,7 @@ public class Horse extends JPanel implements Runnable {
 
     Horse(int id) {
         this.id = id;
-        image = new ImageIcon("horses.gif").getImage();
+        image = new ImageIcon("resources/horses.gif").getImage();
     }
 
     @Override
