@@ -37,7 +37,6 @@ public class Game extends JFrame implements ActionListener {
 
         cBody.setLayout(new GridLayout(2, 1));
 
-
         JPanel jpHorse = new JPanel();
         cBody.add(jpHorse);
 
@@ -50,7 +49,10 @@ public class Game extends JFrame implements ActionListener {
         jpHorse.add(horse2);
         jpHorse.add(horse3);
         jpHorse.add(horse4);
-
+        horse1.setBackground(Color.white);
+        horse2.setBackground(Color.white);
+        horse3.setBackground(Color.white);
+        horse4.setBackground(Color.white);
 
         JPanel jpBottom = new JPanel();
         cBody.add(jpBottom);
@@ -160,7 +162,7 @@ public class Game extends JFrame implements ActionListener {
         jpPlay.add(jbExit);
 
         jpBottom.add(jtaLog);
-
+        jtaLog.setBackground(new Color(238, 238, 238));
 
         this.setVisible(true);
     }
